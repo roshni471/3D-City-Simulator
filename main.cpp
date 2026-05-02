@@ -93,7 +93,7 @@ void renderBird(glm::vec3 p, float t) {
         glfwSwapBuffers(window); glfwPollEvents();
     }
     glfwTerminate(); return 0;
-}
+} 
     drawShape(false, p + glm::vec3(0.6, flap, 0), glm::vec3(1.0, 0.1, 0.5), glm::vec3(0.05));
     drawShape(false, p + glm::vec3(-0.6, flap, 0), glm::vec3(1.0, 0.1, 0.5), glm::vec3(0.05));
 }
